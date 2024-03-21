@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  resources :friends
+  resources :friends # Creates all CRUD routes for friends model
   root 'home#index'
-
   get 'home/about'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
